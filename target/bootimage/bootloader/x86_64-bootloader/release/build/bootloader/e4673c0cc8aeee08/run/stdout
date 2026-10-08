@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/Users/ivanastanin/vs/rust/os/Cargo.toml
+cargo:rustc-link-search=native=/Users/ivanastanin/vs/rust/os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader/e4673c0cc8aeee08/out
+cargo:rustc-link-lib=static=kernel_bin-os-e6b900d2fa50878d
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/Users/ivanastanin/vs/rust/os/target/x86_64/debug/build/os/e6b900d2fa50878d/out/os-e6b900d2fa50878d
+cargo:rerun-if-changed=build.rs
